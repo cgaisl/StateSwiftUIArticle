@@ -2,7 +2,7 @@
 import XCTest
 
 final class PhoneDialerScreenViewModelTest: XCTestCase {
-    func phoneDialerViewModelTest() throws {
+    func testPhoneDialerViewModel() throws {
         let viewModel = PhoneDialerScreenViewModel()
 
         // Trigger action
